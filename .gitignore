@@ -16,3 +16,25 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# vim stuff
+
+# From github/gitignore/blob/master/Global/Vim.gitignore
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+#---
+*.*~
+*~
+*.txt~
+*.md~
+*.swp
+.DS_Store
+
